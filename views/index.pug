@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+  head
+    style
+      include style.css
+    meta(charset="UTF-8")
+    title= title
+  body
+    h1= title
+    each animal in animals
+      div.row
+        div.title
+          h2= animal.name
+        div.description
+          p= animal.description
+          a(href='https://sv.wikipedia.org/wiki/'+animal.name) Läs mer

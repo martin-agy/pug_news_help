@@ -1,0 +1,20 @@
+h1 {
+  color: red;
+}
+
+div.row {
+  border-style: double;
+  height: 100px;
+  margin: 5px;
+  padding: 5px
+}
+
+div.title {
+  width: 20%;
+  float: left
+}
+
+div.description {
+  width: 80%;
+  float: right
+}
