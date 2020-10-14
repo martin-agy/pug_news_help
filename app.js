@@ -31,8 +31,6 @@ app.get('/', (req, res) => {
   })
 });
 
-// Här kanske du måste kunna tillhandahålla css-filer
-
 app.listen(port, () => {
   console.log(`Listening on http://localhost:${port}`);
 });
